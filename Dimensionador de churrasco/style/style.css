@@ -1,46 +1,60 @@
-body{
-    background-color: black;
+*{
+    margin: 0;
+    text-decoration: none;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 40px;
+    margin-top: -100px;
 }
 
 .topo{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: firebrick;
-    color: white;
-    text-align: center;
-    font-size: 50px;
 
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(../images/churrasco_em_familia.jpg);
 }
 
 .container{
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 300px;
-    margin: auto;
-    margin-top: 50px;
-    background-color: cornflowerblue;
-    color: white;
+    max-width: 400px;
+    margin-top: -70px;
+    margin-left: 40px;
+    background-color: rgba(245, 239, 235, 0.400);
+    color: black;
     text-align: center;
+    
     padding: 20px;
     border-radius: 10px;
 }
 
-h1{
-    margin-top: 0;
-}
-
 input{
-    width: 100%;
-    display: block;
+    height: 40px;
+    text-align: center;
+    font-size: 2rem;
+    width: 90%;
     padding: 5px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
+    margin: 10px;
     border-radius: 8px;
 }
 
 button{
-    width: 30%;
-    height: 35px;
-    padding: 5px;
-    border-radius: 5px;
+    width: 35%;
+    height: 45px;
+    border-radius: 15px;
     text-align: center;
-    font-size: 18px;
+    font-size: 2rem;
+    background-color: DimGray;
+}
+
+#resultado{
+    font-size: 30px;
+    margin-top: 10px;
 }
